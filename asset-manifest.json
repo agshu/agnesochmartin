@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.8e7a9359.css",
-    "main.js": "/static/js/main.ef188308.js",
+    "main.js": "/static/js/main.e2b5f027.js",
     "static/media/GaramondPremrPro-Bd.otf": "/static/media/GaramondPremrPro-Bd.a3965d1a22867683625f.otf",
     "static/media/Namn.png": "/static/media/Namn.75f0cf5d7a58ced70b0c.png",
     "static/media/GothamRnd-Bold.otf": "/static/media/GothamRnd-Bold.a829ff15fe2b18d9330b.otf",
     "index.html": "/index.html",
     "main.8e7a9359.css.map": "/static/css/main.8e7a9359.css.map",
-    "main.ef188308.js.map": "/static/js/main.ef188308.js.map"
+    "main.e2b5f027.js.map": "/static/js/main.e2b5f027.js.map"
   },
   "entrypoints": [
     "static/css/main.8e7a9359.css",
-    "static/js/main.ef188308.js"
+    "static/js/main.e2b5f027.js"
   ]
 }
