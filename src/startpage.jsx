@@ -32,8 +32,8 @@ export const Startpage = () => {
           (ORANGERIET)
         </a>
       </div>
-      <span className="bottom-left">RSVP</span>
-      <span className="bottom-right">Text</span>
+      <span className="bottom-left">OSA!</span>
+      <span className="bottom-right">Mer info kommer snart</span>
       <img src={Namn} className="image parallax floating" />
     </div>
   );
