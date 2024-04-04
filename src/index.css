@@ -1,19 +1,25 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../src/fonts/GothamRnd-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("../src/fonts/GaramondPremrPro-Bd.otf") format("opentype");
+}
+
 body {
   margin: 0;
-  /* background-color: rgba(236, 185, 176, 255); */
-  background-color: #fcab9c;
-  /* background-color: #f4e3d3; */
-  /* color: #32834b; */
-  color: #055c3c;
-  /* color: #d4543c; */
-  font-family: "Helvetica Neue", sans-serif;
+  background-color: #e6a69f;
+  color: #325c3e;
+  font-family: "Gotham", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
+  color: inherit;
+  text-decoration: inherit;
   cursor: pointer;
 }
 

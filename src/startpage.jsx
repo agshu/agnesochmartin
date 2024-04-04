@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Namn from "./assets/Namn.png";
 
 export const Startpage = () => {
   useEffect(() => {
@@ -33,10 +34,7 @@ export const Startpage = () => {
       </div>
       <span className="bottom-left">RSVP</span>
       <span className="bottom-right">Text</span>
-      <h1 className="image">AGNES & MARTIN</h1>
-      <header className="heading parallax floating">
-        More info coming soon
-      </header>
+      <img src={Namn} className="image parallax floating" />
     </div>
   );
 };
