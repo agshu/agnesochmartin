@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b91276be.css",
-    "main.js": "/static/js/main.02597d03.js",
+    "main.css": "/static/css/main.7454320b.css",
+    "main.js": "/static/js/main.d66eccb4.js",
     "static/media/Namn.png": "/static/media/Namn.75f0cf5d7a58ced70b0c.png",
     "static/media/GothamRnd-Bold.otf": "/static/media/GothamRnd-Bold.a829ff15fe2b18d9330b.otf",
     "index.html": "/index.html",
-    "main.b91276be.css.map": "/static/css/main.b91276be.css.map",
-    "main.02597d03.js.map": "/static/js/main.02597d03.js.map"
+    "main.7454320b.css.map": "/static/css/main.7454320b.css.map",
+    "main.d66eccb4.js.map": "/static/js/main.d66eccb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b91276be.css",
-    "static/js/main.02597d03.js"
+    "static/css/main.7454320b.css",
+    "static/js/main.d66eccb4.js"
   ]
 }
