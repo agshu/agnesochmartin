@@ -33,7 +33,7 @@ const CheckboxGroup = ({ question, name, options }) => (
 
 export const RSVP = () => {
   return (
-    <div className="flex flex-col h-[100vh] justify-center p-2 my-[60px]">
+    <div className="flex flex-col h-[100vh] justify-center p-2 mb-4 w-[100dvw] lg:w-[70dvw]">
       <h1
         data-aos="fade-up"
         className="text-[3rem] uppercase text-left leading-none font-bold mb-4"

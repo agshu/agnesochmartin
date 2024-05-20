@@ -11,7 +11,7 @@ const Schedule = ({ entries }) => {
           </h3>
           <div
             data-aos="fade-up"
-            className="grid grid-cols-[auto_auto] font-[Garamond] border-[0.5px] border-green"
+            className="grid grid-cols-[80px_auto] lg:grid-cols-[100px_auto] font-[Garamond] border-[0.5px] border-green text-xs lg:text-sm "
           >
             <div className="uppercase font-bold border-[0.5px] border-green px-2 py-1">
               När
@@ -41,7 +41,7 @@ export default Schedule;
 
 export const SchedulePage = () => {
   return (
-    <div className="px-2 font-bold">
+    <div className="px-2 font-bold w-[100dvw] lg:w-[70dvw]">
       <Schedule entries={ScheduleDetails} />
     </div>
   );

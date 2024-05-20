@@ -8,7 +8,7 @@ import { InfoPage } from "./components/InfoPage";
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <Element name="startpage">
         <Startpage />
       </Element>
@@ -21,6 +21,7 @@ function App() {
       <Element name="rsvp">
         <RSVP />
       </Element>
+      <div className="text-[3rem] uppercase py-10 font-bold">Puss & kram!</div>
     </div>
   );
 }

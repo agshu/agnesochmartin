@@ -5,7 +5,7 @@ export const ScheduleDetails = [
       {
         time: "18.30 - 01.00",
         description:
-          "Mat, vin, förfest och quiz i <a href='https://ahouse.se/borshuset/' target='_blank'>Börshuset, Slakhusområdet</a>",
+          "Mat, förfest och quiz i <a href='https://ahouse.se/borshuset/' target='_blank'>Börshuset, Slakhusområdet</a>",
       },
       {
         time: "01.00 +",
@@ -21,7 +21,7 @@ export const ScheduleDetails = [
         description:
           "Bussar avgår från <a href='https://www.radissonhotels.com/sv-se/hotell/radisson-blu-uppsala' target='_blank'>Radisson Blu Uppsala</a>",
       },
-      { time: "15.00", description: "Vi säger “ja!” i Vendels söta kyrka" },
+      { time: "15.00", description: "Vi säger “ja!” i Vendels kyrka" },
       {
         time: "16.00",
         description:

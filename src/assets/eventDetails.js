@@ -53,10 +53,10 @@ export const EventDetails = [
           Hotell Kungsängstorg
         </a>
         <br /> <br />
-        Uppsala erbjuder många fler hotell och vandrarhem! Men glöm inte att
-        boka NU!
+        Uppsala erbjuder många fler hotell och vandrarhem som det självklart går
+        bra att bo på. Men glöm inte att boka NU!
         <br /> <br />
-        Vill du åka hem på natten efter festen så går det givetvis bra, det går
+        Vill du åka hem på natten efter festen så funkar det utmärkt – det går
         bussar hela natten till Stockholm central.
       </span>
     ),
