@@ -1,9 +1,15 @@
 import React from "react";
 import { ScheduleDetails } from "../assets/scheduleDetails";
+import martin from "../assets/martin.png";
 
 const Schedule = ({ entries }) => {
   return (
-    <div className="flex flex-col gap-4 h-[100dvh]">
+    <div className="relative flex flex-col gap-4 h-[100dvh]">
+      {/* <img
+        src={martin}
+        alt="Martin"
+        className="w-[500px] h-[500px] absolute top-10 right-0 z-[-1]"
+      /> */}
       {entries.map((entry, index) => (
         <div key={index}>
           <h3 data-aos="fade-up" className="text-[3rem] uppercase">
@@ -11,7 +17,7 @@ const Schedule = ({ entries }) => {
           </h3>
           <div
             data-aos="fade-up"
-            className="grid grid-cols-[80px_auto] lg:grid-cols-[100px_auto] font-[Garamond] border-[0.5px] border-green text-xs lg:text-sm "
+            className="grid grid-cols-[80px_auto] lg:grid-cols-[100px_auto] font-[Garamond] border-[0.5px] border-green text-xs lg:text-sm"
           >
             <div className="uppercase font-bold border-[0.5px] border-green px-2 py-1">
               När

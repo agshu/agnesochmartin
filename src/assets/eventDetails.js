@@ -57,7 +57,7 @@ export const EventDetails = [
         bra att bo på. Men glöm inte att boka NU!
         <br /> <br />
         Vill du åka hem på natten efter festen så funkar det utmärkt – det går
-        bussar hela natten till Stockholm central.
+        lokalbussar hela natten till Stockholm central.
       </span>
     ),
   },
@@ -87,7 +87,8 @@ export const EventDetails = [
         <br />
         <br />
         De låter hälsa att om det finns intresse att hålla tal så skicka ett
-        e-mail senast den 1 juni till email@gmail.com.
+        e-mail senast den 1 juni till blomdahl.rickard@gmail.com eller
+        hannah.tea.bengtsson@gmail.com.
       </span>
     ),
   },

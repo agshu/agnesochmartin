@@ -8,7 +8,7 @@ const Banner = () => {
         to="rsvp"
         smooth={true}
         duration={500}
-        offset={-50}
+        offset={-10}
         className="flex animate-marquee"
       >
         <div className="flex">

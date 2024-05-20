@@ -39,7 +39,7 @@ export const ScheduleDetails = [
       {
         time: "Förmiddag",
         description:
-          "Du hittar oss på brunch på Radison Blu, kom gärna och säg hej!",
+          "Du hittar oss på brunch på Radisson Blu, kom gärna och säg hej!",
       },
     ],
   },

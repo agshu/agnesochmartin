@@ -33,17 +33,20 @@ const CheckboxGroup = ({ question, name, options }) => (
 
 export const RSVP = () => {
   return (
-    <div className="flex flex-col h-[100vh] justify-center p-2 mb-4 w-[100dvw] lg:w-[70dvw]">
+    <div className="flex flex-col h-[100vh] justify-center p-2 w-[100dvw] lg:w-[70dvw]">
       <h1
         data-aos="fade-up"
-        className="text-[3rem] uppercase text-left leading-none font-bold mb-4"
+        className="text-[3rem] uppercase text-left leading-none font-bold mb-2"
       >
         Hoppas vi ses!?
       </h1>
+      <h3 data-aos="fade-up" className="uppercase mb-4">
+        OSA senast 6 juni
+      </h3>
       <form
         data-aos="fade-up"
         action="https://docs.google.com/forms/d/e/1FAIpQLSdQQgarwVVdG2YnuhvywtzLcslRYXoYggUnzt7hK4_MV08Aig/formResponse"
-        className="grid grid-cols-[1fr_1fr] gap-4 font-[Garamond] font-bold uppercase"
+        className="grid grid-cols-[1fr_1fr] gap-2 font-[Garamond] font-bold uppercase"
       >
         <TextInput label="Förnamn" name="entry.1359921993" />
         <TextInput label="Efternamn" name="entry.753061884" />
@@ -86,7 +89,7 @@ export const RSVP = () => {
         <input
           type="submit"
           value="Skicka"
-          className="hover:bg-[#325c3e] hover:text-[#ebb6b6] px-2 py-1 border border-solid border-[#325c3e] cursor-pointer col-span-2 uppercase"
+          className="bg-green text-pink px-2 py-1 cursor-pointer col-span-2 uppercase"
         />
       </form>
     </div>

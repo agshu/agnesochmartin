@@ -21,7 +21,7 @@ function App() {
       <Element name="rsvp">
         <RSVP />
       </Element>
-      <div className="text-[3rem] uppercase py-10 font-bold">Puss & kram!</div>
+      <div className="text-[3rem] uppercase pb-10 font-bold">Puss & kram!</div>
     </div>
   );
 }
