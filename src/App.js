@@ -12,16 +12,20 @@ function App() {
       <Element name="startpage">
         <Startpage />
       </Element>
-      <Element name="schedule">
-        <SchedulePage />
-      </Element>
-      <Element name="info">
-        <InfoPage />
-      </Element>
-      <Element name="rsvp">
-        <RSVP />
-      </Element>
-      <div className="text-[3rem] uppercase pb-10 font-bold">Puss & kram!</div>
+      <div className="flex flex-col gap-14">
+        <Element name="schedule">
+          <SchedulePage />
+        </Element>
+        <Element name="info">
+          <InfoPage />
+        </Element>
+        <Element name="rsvp">
+          <RSVP />
+        </Element>
+        <div className="text-[3rem] uppercase pb-10 font-bold text-center">
+          Puss & kram!
+        </div>
+      </div>
     </div>
   );
 }

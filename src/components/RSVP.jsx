@@ -33,20 +33,20 @@ const CheckboxGroup = ({ question, name, options }) => (
 
 export const RSVP = () => {
   return (
-    <div className="flex flex-col h-[100vh] justify-center p-2 w-[100dvw] lg:w-[70dvw]">
+    <div className="flex flex-col justify-center p-2 w-[100dvw]">
       <h1
         data-aos="fade-up"
         className="text-[3rem] uppercase text-left leading-none font-bold mb-2"
       >
         Hoppas vi ses!?
       </h1>
-      <h3 data-aos="fade-up" className="uppercase mb-4">
-        OSA senast 6 juni
+      <h3 data-aos="fade-up" className="uppercase mb-4 text-sm">
+        OSA senast 6 juni. Är ni två? Osa varsin separat eller en tillsammans.
       </h3>
       <form
         data-aos="fade-up"
         action="https://docs.google.com/forms/d/e/1FAIpQLSdQQgarwVVdG2YnuhvywtzLcslRYXoYggUnzt7hK4_MV08Aig/formResponse"
-        className="grid grid-cols-[1fr_1fr] gap-2 font-[Garamond] font-bold uppercase"
+        className="grid grid-cols-[1fr_1fr] gap-2 font-[Garamond] font-bold uppercase text-sm"
       >
         <TextInput label="Förnamn" name="entry.1359921993" />
         <TextInput label="Efternamn" name="entry.753061884" />

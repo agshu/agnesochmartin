@@ -4,7 +4,7 @@ import martin from "../assets/martin.png";
 
 const Schedule = ({ entries }) => {
   return (
-    <div className="relative flex flex-col gap-4 h-[100dvh]">
+    <div className="relative flex flex-col gap-4">
       {/* <img
         src={martin}
         alt="Martin"
@@ -17,21 +17,21 @@ const Schedule = ({ entries }) => {
           </h3>
           <div
             data-aos="fade-up"
-            className="grid grid-cols-[80px_auto] lg:grid-cols-[100px_auto] font-[Garamond] border-[0.5px] border-green text-xs lg:text-sm"
+            className="grid grid-cols-[100px_auto] lg:grid-cols-[100px_auto] font-[Garamond] border-[0.5px] border-green text-xs lg:text-sm"
           >
-            <div className="uppercase font-bold border-[0.5px] border-green px-2 py-1">
+            <div className="uppercase font-bold border-[0.5px] border-green px-2 py-1 text-sm">
               När
             </div>
-            <div className="uppercase font-bold border-[0.5px] border-green px-2 py-1">
+            <div className="uppercase font-bold border-[0.5px] border-green px-2 py-1 text-sm">
               Vad
             </div>
             {entry.activities.map((activity, idx) => (
               <React.Fragment key={idx}>
-                <div className="border-[0.5px] border-green px-2 py-1">
+                <div className="border-[0.5px] border-green px-2 py-1 text-sm">
                   {activity.time}
                 </div>
                 <div
-                  className="border-[0.5px] border-green px-2 py-1 [&>a]:underline [&>a]:underline-offset-2"
+                  className="border-[0.5px] border-green px-2 py-1 [&>a]:underline [&>a]:underline-offset-2 text-sm"
                   dangerouslySetInnerHTML={{ __html: activity.description }}
                 ></div>
               </React.Fragment>
