@@ -17,7 +17,7 @@ const CheckboxGroup = ({ question, name, options }) => (
     {options.map((option, index) => (
       <div
         key={index}
-        className={`col-start-${index + 1} flex items-center gap-1`}
+        className={`col-start-${index + 1} flex items-center gap-2`}
       >
         <input
           type="checkbox"
@@ -33,7 +33,7 @@ const CheckboxGroup = ({ question, name, options }) => (
 
 export const RSVP = () => {
   return (
-    <div className="flex flex-col justify-center p-2 w-[100dvw]">
+    <div className="flex flex-col justify-center p-2 lg:w-[70dvw]">
       <h1
         data-aos="fade-up"
         className="text-[3rem] uppercase text-left leading-none font-bold mb-2"
@@ -46,7 +46,7 @@ export const RSVP = () => {
       <form
         data-aos="fade-up"
         action="https://docs.google.com/forms/d/e/1FAIpQLSdQQgarwVVdG2YnuhvywtzLcslRYXoYggUnzt7hK4_MV08Aig/formResponse"
-        className="grid grid-cols-[1fr_1fr] gap-2 font-[Garamond] font-bold uppercase text-sm"
+        className="grid grid-cols-[1fr_1fr] gap-4 font-[Garamond] font-bold uppercase text-sm"
       >
         <TextInput label="Förnamn" name="entry.1359921993" />
         <TextInput label="Efternamn" name="entry.753061884" />
@@ -89,7 +89,7 @@ export const RSVP = () => {
         <input
           type="submit"
           value="Skicka"
-          className="bg-green text-pink px-2 py-1 cursor-pointer col-span-2 uppercase"
+          className="bg-green text-pink px-2 py-1 cursor-pointer col-span-2 uppercase border border-green"
         />
       </form>
     </div>

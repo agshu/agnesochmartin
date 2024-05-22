@@ -12,24 +12,24 @@ const Banner = () => {
         className="flex animate-marquee"
       >
         <div className="flex">
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
         </div>
         <div className="flex">
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
-          <span className="mr-4">OSA är öppet!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
+          <span className="mr-4">OSA senast 6 juni!</span>
         </div>
       </Link>
     </div>

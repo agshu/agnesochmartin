@@ -12,7 +12,7 @@ function App() {
       <Element name="startpage">
         <Startpage />
       </Element>
-      <div className="flex flex-col gap-14">
+      <div className="flex flex-col gap-14 lg:gap-32 items-center">
         <Element name="schedule">
           <SchedulePage />
         </Element>
